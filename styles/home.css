@@ -1,0 +1,60 @@
+.custom-shape-divider-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 110px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-whyTicketh-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-whyTicketh-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 157px;
+}
+
+.custom-shape-divider-bottom-whyTicketh-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-whyTicketh-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-whyTicketh-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 51px;
+}
+
+.custom-shape-divider-top-whyTicketh-top .shape-fill {
+    fill: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+.dropdown-with-links{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms ease-out, visibility 200ms ease-out;
+}
+.dropdown-activator:hover > .dropdown-with-links{
+    visibility: visible;
+    opacity: 1;
+}
